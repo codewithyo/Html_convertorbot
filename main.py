@@ -5,12 +5,12 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 
 # Replace with your API ID, API Hash, and Bot Token
-API_ID = "21705536"
-API_HASH = "c5bb241f6e3ecf33fe68a444e288de2d"
-BOT_TOKEN = "8013725761:AAGQyr32ibk7HQNqxv4FSD2ZrrSLOmzknlg"
+API_ID = "23634056"
+API_HASH = "f2debf49c2f57bad88086ecd17cb5df3"
+BOT_TOKEN = "8013725761:7565954298:AAECn0qreImuXP9wBaJuJowO9He65czJb84"
 
 # Telegram channel where files will be forwarded
-CHANNEL_USERNAME = "engineerbabuxtfiles"  # Replace with your channel username
+CHANNEL_USERNAME = "codewithyo"  # Replace with your channel username
 
 # Initialize Pyrogram Client
 app = Client("my_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
@@ -263,7 +263,7 @@ def generate_html(file_name, videos, pdfs, others):
 <body>
     <div class="header">
         {file_name_without_extension}
-        <div class="subheading">📥 Extracted By: <a href="https://t.me/Engineers_Babu" target="_blank">Engineers Babu™</a></div>
+        <div class="subheading">📥 Extracted By: <a href="https://t.me/codewithyo" target="_blank">𝕮𝖔𝖉𝖊 𝖜𝖎𝖙𝖍 𝖞𝖔✍</a></div>
     </div>
 
     <div id="video-player">
@@ -315,7 +315,7 @@ def generate_html(file_name, videos, pdfs, others):
         </div>
     </div>
 
-    <div class="footer">Extracted By - <a href="https://t.me/Engineers_Babu" target="_blank">Engineers Babu</a></div>
+    <div class="footer">Extracted By - <a href="https://t.me/codewithyo" target="_blank">𝕮𝖔𝖉𝖊 𝖜𝖎𝖙𝖍 𝖞𝖔✍</a></div>
 
     <script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
     <script>
